@@ -1,0 +1,36 @@
+NLP - Natural Language Processing
+NLTK - Natual Language Toolkit
+
+Text Processing
+- Text Summarization
+- Translation (Goole Translator)
+- Chatbot
+- Sentiment Analysis (Pos / Neg)
+
+Steps for Text Processing
+text = "That movie was very boring, I watched it yesterday"
+
+1. Tokenization
+   - ["that", "movie", "was", "very", "boring", "," ,"i", "watched", "it", "yesterday"]
+
+2. Remove Stopwords and Punctuations
+   punctuations - !@#$%^&*()_}{[]|:";'<>?
+   stopwords - that, was, i, it, is, am, are, this, what...   
+   - ["movie", "very", "boring", "watched", "yesterday"]
+
+3. Stemming / Lemmatization
+   - play - played / playing 
+   - fly  - flying
+   - bought - buy
+   ["movie", "very", "bore", "watch", "yesterday"]
+
+4. Vectorization - Bag of words
+  - CountVectorization
+  - TF-IDF - Term Frequency / Inverse Document Frequency
+
+- Naive Bayes
+
+
+
+
+
